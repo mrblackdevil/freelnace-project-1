@@ -1,0 +1,419 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	/*Header*/
+	.logo {
+		width: 30%;
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+	}
+	.contacts {
+		width: 70%;
+		margin-left: 0;
+		text-align: center;
+	}
+	.feedback-email,
+	.feedback-call {
+		width: 49%;
+		text-align: right;
+		margin: 0;
+		padding: 0;
+	}
+	.feedback-email {
+		margin-right: 2%;
+	}
+	.feedback-title,
+	.backcall-title {
+		text-align: right;
+	}
+			/*Main*/ 
+	.content-block { 
+		width: 115%;
+		padding: 0;
+		margin: 0;	
+	}
+	.content-block h2,h3 {
+		display: block;
+		width: 107%;
+		padding: 0;
+		line-height: 40px;
+		font-size: 40px;
+	}
+	.content-block h3 {
+		width: 110%;
+		padding: 0;
+		margin: 0;
+		line-height: 40px;
+		font-size: 37px;
+		font-family: "GothaProReg",sans-serif;
+	}
+	.content-block p {
+		width: 105%;
+		margin-top: 50px;
+		margin-bottom: 30px;
+		font-size: 20px;
+	}
+	.form-box {
+		width: 110%;
+		margin: 0 7%;
+		padding: 0;
+		padding-right: 9px;
+	}
+	.form-block input[type=text] {
+		width: 27%;
+	}
+	.form-block input[type=submit] {
+		width: 35%;
+	}
+	.gift-from-company {
+		margin-bottom: -20%;
+	}
+	.gift-from-company p {
+		width: 120%;
+		padding: 0;
+		padding-bottom: 20%;
+		text-align: center;
+	}
+	.video-content {
+		margin-top: 20%;
+		margin-bottom: 10%;
+	}
+	/*Footer*/
+	.footer-content {
+		width: 120%;
+		margin:  auto;
+		text-align: center;
+	}
+	.footer-content b {
+		padding-right: 50px;
+	}
+	.footer-content a {
+		display: block;
+		width: 95%;
+		margin: 0;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	/*Header*/
+	.logo {
+		width: 50%;
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+	}
+	.contacts {
+		width: 50%;
+		text-align: center;
+	}
+	.feedback-email,
+	.feedback-call {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	.feedback-title,
+	.backcall-title {
+		text-align: center;
+	}
+			/*Main*/ 
+	.content-block { 
+		width: 115%;
+		padding: 0;
+		margin: 0;	
+	}
+	.content-block h2,h3 {
+		display: block;
+		width: 107%;
+		padding: 0;
+		line-height: 40px;
+		font-size: 40px;
+	}
+	.content-block h3 {
+		width: 110%;
+		padding: 0;
+		margin: 0;
+		line-height: 40px;
+		font-size: 37px;
+		font-family: "GothaProReg",sans-serif;
+	}
+	.content-block p {
+		width: 105%;
+		margin-top: 50px;
+		margin-bottom: 30px;
+		font-size: 20px;
+	}
+	.form-box {
+		width: 110%;
+		margin: 0 7%;
+		padding: 0;
+		padding-right: 9px;
+	}
+	.form-block input[type=text] {
+		width: 27%;
+	}
+	.form-block input[type=submit] {
+		width: 35%;
+	}
+	.gift-from-company {
+		margin-bottom: -20%;
+	}
+	.gift-from-company p {
+		width: 120%;
+		padding: 0;
+		padding-bottom: 20%;
+		text-align: center;
+	}
+	.wrapper-box {
+		width: 63%;
+	}
+	.video-content {
+		margin-top: 20%;
+		margin-bottom: 10%;
+	}
+	/*Footer*/
+	.footer-content {
+		width: 120%;
+		margin:  auto;
+		text-align: center;
+	}
+	.footer-content b {
+		padding-right: 50px;
+	}
+	.footer-content a {
+		display: block;
+		width: 95%;
+		margin: 0;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	/*Header*/
+	.logo {
+		width: 120%;
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+	}
+	.contacts {
+		width: 80%;
+		text-align: center;
+	}
+	.feedback-email,
+	.feedback-call {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	.feedback-title,
+	.backcall-title {
+		text-align: center;
+	}
+		/*Main*/ 
+	.content-block { 
+		width: 115%;
+		padding: 0;
+		margin: 0;	
+	}
+	.content-block h2,h3 {
+		display: block;
+		width: 107%;
+		padding: 0;
+		line-height: 40px;
+		font-size: 40px;
+	}
+	.content-block h3 {
+		width: 110%;
+		padding: 0;
+		margin: 0;
+		line-height: 40px;
+		font-size: 37px;
+		font-family: "GothaProReg",sans-serif;
+	}
+	.content-block p {
+		width: 105%;
+		margin-top: 50px;
+		margin-bottom: 30px;
+		font-size: 20px;
+	}
+	.form-box {
+		width: 110%;
+		margin: 0 7%;
+		padding: 0;
+		padding-right: 9px;
+	}
+	.form-block input[type=text] {
+		width: 27%;
+	}
+	.form-block input[type=submit] {
+		width: 35%;
+	}
+	.gift-from-company {
+		margin-bottom: -20%;
+	}
+	.gift-from-company p {
+		width: 120%;
+		padding: 0;
+		padding-bottom: 20%;
+		text-align: center;
+	}
+	.wrapper-box {
+		width: 63%;
+	}
+	.video-content {
+		margin-top: 20%;
+		margin-bottom: 10%;
+	}
+	/*Footer*/
+	.footer-content {
+		width: 120%;
+		margin:  auto;
+		text-align: center;
+	}
+	.footer-content b {
+		padding-right: 50px;
+	}
+	.footer-content a {
+		display: block;
+		width: 95%;
+		margin: 0;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	/*Header*/
+	.logo {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+	}
+	.contacts {
+		width: 100%;
+		text-align: center;
+	}
+	.feedback-email,
+	.feedback-call {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	.feedback-title,
+	.backcall-title {
+		text-align: center;
+	}
+	/*Main*/ 
+	.content-block { 
+		width: 100%;
+		padding: 0;
+		margin: 0;	
+	}
+	.content-block h2,h3 {
+		display: block;
+		width: 105%;
+		padding: 0;
+		line-height: 40px;
+		font-size: 29px;
+	}
+	.content-block h3 {
+		width: 110%;
+		padding: 0;
+		margin: 0;
+		line-height: 40px;
+		font-size: 17px;
+		font-family: "GothaProReg",sans-serif;
+	}
+	.content-block p {
+		width: 110%;
+		margin-top: 50px;
+		margin-bottom: 20px;
+		padding: 0;
+		font-size: 20px;
+	}
+	.form-box {
+		width: 97%;
+		height: auto;
+		margin: 0 7%;
+		padding: 0;
+	}
+	.form-block input[type=text] {
+		width: 90%;
+	}
+	.form-block input[type=submit] {
+		width: 90%;
+	}
+	.gift-from-company {
+		width: 90%;
+		margin-bottom: -20%;
+	}
+	.gift-from-company p {
+		width: 120%;
+		padding: 0;
+		margin-bottom: 20%;
+		text-align: center;
+	}
+	.wrapper-box {
+		width: 60%;
+		margin: 0 auto;
+	}
+	.video-content {
+		margin-top: 20%;
+		margin-bottom: 10%;
+	}
+	/*Footer*/
+	.footer-content {
+		width: 110%;
+		margin:  auto;
+		text-align: center;
+	}
+	.footer-content b {
+		padding: 0;
+	}
+	.footer-content a {
+		display: block;
+		width: 95%;
+		margin: 0;
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
